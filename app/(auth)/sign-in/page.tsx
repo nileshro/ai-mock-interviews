@@ -1,8 +1,10 @@
-import AuthForm from '@/components/AuthForm'
-import React from 'react'
+// File: app/(auth)/sign-in/page.tsx
 
-const page = () => {
-  return <AuthForm type="sign-in"/>
-}
+import React from "react";
+import AuthForm from "@/components/AuthForm"; // ✅ Correct import path
 
-export default page
+const SignInPage = () => {
+  return <AuthForm type="sign-in" />;
+};
+
+export default SignInPage;
